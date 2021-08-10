@@ -3,12 +3,12 @@ import { makeStyles } from "@material-ui/styles";
 export const useStyles = makeStyles((theme) => ({
   toolbarMargin: {
     ...theme.mixins.toolbar,
-    // [theme.breakpoints.down("md")]: {
-    //   marginBottom: "2em",
-    // },
-    // [theme.breakpoints.down("xs")]: {
-    //   marginBottom: "1.25em",
-    // },
+    [theme.breakpoints.down("md")]: {
+      marginBottom: "2em",
+    },
+    [theme.breakpoints.down("xs")]: {
+      marginBottom: "1.25em",
+    },
   },
   logoImg: {
     height: 90,
